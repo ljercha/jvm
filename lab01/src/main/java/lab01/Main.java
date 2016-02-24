@@ -7,7 +7,14 @@ public class Main {
 	public static void main(String[] args) {
 		int i = 0;
 		
+		try
+		{
 		BigBoom(i);
+		}
+		catch(OutOfMemoryError exception)
+		{
+			System.out.println("We got our OutOfMemoryError expection! " + exception.getMessage());
+		}
 	}
 	
 	public static void BigBoom(int n) {
