@@ -1,6 +1,6 @@
 ## Jvm Internals
 #### Łukasz Jercha
-
+[![Build Status](https://travis-ci.org/ljercha/jvm.svg?branch=master)](https://travis-ci.org/ljercha/jvm)
 
 Laboratorium 01
 ***
