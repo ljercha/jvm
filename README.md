@@ -5,6 +5,7 @@
 Laboratorium 01
 ***
 > Aplikacja rzuca wyjątkiem OutOfMemoryExpection, gdyż wypełniam całą stertę alokując pamięc metodą rekurencyjnie.
+>   Z [dokumentacji](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/java.html#nonstandard) wynika iż można modyfikować wielkość sterty.  
 
 Uruchomienie projektu:
 ```bash
