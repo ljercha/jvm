@@ -1,6 +1,9 @@
 
 public class Foo {
 
+	public int zapis = 15000;
+	public int odczyt = 15000;
+			;
 	public int silniaRekurencja(int i) 
 	{
 	    if (i == 0) 
