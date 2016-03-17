@@ -15,3 +15,30 @@ Uruchomienie projektu:
  ```
 
 ***
+Laboratorium 02  
+Wyniki aplikacji:
+  
+  
+> REFLEKSJA wywolanie metody:562.1315 ns
+  
+> REFLEKSJA odczytanie zmiennej:958.7505 ns 
+  
+> REFLEKSJA zapisanie zmiennej:885.8244 ns
+  
+> NORMALNE wywolanie metody:103.33035 ns
+  
+> NORMALNE odczytanie zmiennej:71.61855 ns
+  
+> NORMALNE zapisanie zmiennej:189.40955
+  
+
+***
+Laboratorium 03  
+Projekt zawiera 2 klasy testowanie za pomocą unit testów w porównaniu do jacksona.  
+
+Uruchomienie projektu:
+```bash
+
+ mvn test
+ ```
+  
