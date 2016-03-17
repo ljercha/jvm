@@ -31,3 +31,14 @@ Wyniki aplikacji:
   
 > NORMALNE zapisanie zmiennej:189.40955
   
+
+***
+Laboratorium 03  
+Projekt zawiera 2 klasy testowanie za pomocą unit testów w porównaniu do jacksona.  
+
+Uruchomienie projektu:
+```bash
+
+ mvn test
+ ```
+  
