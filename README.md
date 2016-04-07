@@ -42,3 +42,23 @@ Uruchomienie projektu:
  mvn test
  ```
   
+  
+Laboratorium 06
+***
+> Aplikacje można uruchomić z crashem związanym z brakiem multi-threading klassy SimpleDateFormat jak  i bezpiecznie
+>   Z [dokumentacji](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/java.html#nonstandard) wynika iż można modyfikować wielkość sterty.  
+
+Uruchomienie ThreadCrash:
+```bash
+
+ mvn compile -f lab06
+ mvn exec:java -f lab01 -Dexec.mainClass="ThreadCrash.Main"
+ ```
+>   Z [dokumentacji](http://docs.oracle.com/javase/7/docs/technotes/tools/windows/java.html#nonstandard) wynika iż można modyfikować wielkość sterty.  
+
+Uruchomienie ThreadSafeLocal:
+```bash
+
+ mvn compile -f lab06
+ mvn exec:java -f lab01 -Dexec.mainClass="ThreadSafeLocal.Main"
+ ```
