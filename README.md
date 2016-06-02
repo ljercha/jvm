@@ -84,6 +84,11 @@ Xstream serialize: 114.73205741626795
 > 
 ***
 
+![one](lab-serializacja/src/main/resources/1-object.png)
+![one](lab-serializacja/src/main/resources/10-objects.png)
+![one](lab-serializacja/src/main/resources/1000-objects.png)
+
+
 Uruchomienie lab-serializacja
 ```bash
 
