@@ -60,3 +60,34 @@ Uruchomienie ThreadSafeLocal:
  mvn compile -f lab06
  mvn exec:java -f lab01 -Dexec.mainClass="ThreadSafeLocal.Main"
  ```
+
+
+Laboratorium - Benchmark serializacji
+
+Wyniki:
+
+> Single object
+Jackson: 0.4030937215650591  
+Java serialize: 0.37670609645131936  
+Gson serialize: 0.5295723384895359  
+Xstream serialize: 1.6169244767970883  
+10 object  
+Jackson: 0.34576888080072793  
+Java serialize: 0.5641492265696088  
+Gson serialize: 0.47224749772520475  
+Xstream serialize: 1.9335759781619655  
+1000 object  
+Jackson: 5.4066985645933014  
+Java serialize: 67.86124401913875  
+Gson serialize: 13.68421052631579  
+Xstream serialize: 114.73205741626795  
+> 
+***
+
+Uruchomienie lab-serializacja
+```bash
+
+ mvn compile -f lab-serializacja
+ mvn exec:java -f lab-serializacja -Dexec.mainClass=serializacja.Main
+
+```
